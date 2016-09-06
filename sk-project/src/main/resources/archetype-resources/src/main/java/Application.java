@@ -1,7 +1,4 @@
-#set( $symbol_pound = '#' )
-#set( $symbol_dollar = '$' )
-#set( $symbol_escape = '\' )
-package ${package};
+#set($symbol_pound='#')#set($symbol_dollar='$')#set($symbol_escape='\')package ${package};
 
 import java.io.IOException;
 
@@ -17,7 +14,7 @@ public class Application implements SkApplication {
 
 	@Override
 	public void run() throws IOException {
-		System.out.println("It's works!");
+		// TODO Application Code...
 	}
 
 }
